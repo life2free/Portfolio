@@ -1,0 +1,133 @@
+.project-div {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 2%;
+  height: 60vh;
+  /* border: 1px solid gray; */
+  border-radius: 2%;
+  /* box-shadow: 0px 0px 10px 10px grey; */
+}
+
+.normal {
+  width: 20vw;
+}
+
+.wider {
+  width: 44vw;
+}
+
+.project-img {
+  height: 92%;
+  width: 100%;
+}
+
+.project-img img {
+  height: 100%;
+  width: 100%;
+  /* border-radius: 5%; */
+}
+
+.project-title {
+  height: 8%;
+  width: 100%;
+  color: lightslategray;
+  font-weight: bolder;
+  font-size: 1.3em;
+  /* background-color: lightslategray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  /* width: 300px;
+  height: 300px;
+  perspective: 1000px; */
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* text-align: center; */
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  /* background-color: #bbb; */
+  /* color: black; */
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-info {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-relatedlink {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit-link {
+  width: 20%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-color: lightslategray;
+  border-radius: 2%;
+  /* margin-right: 2%;
+  border: 1px solid blanchedalmond; */
+}
+
+.github {
+  width: 15%;
+  /* height: 50%; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.github img {
+  /* height: 30%; */
+  width: 100%;
+  /* background-color: transparent; */
+}

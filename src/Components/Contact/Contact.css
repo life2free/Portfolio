@@ -1,0 +1,46 @@
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-title {
+  margin-top: 20vh;
+  margin-bottom: 1vh;
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.contact-info {
+  margin-top: 1vh;
+  font-size: 1em;
+}
+
+.contact-link {
+  margin: 10% 20% 0 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contact-link-img {
+  /* height: 10vh;
+  width: 8vw; */
+  height: 20%;
+  width: 20%;
+  /* margin: 0; */
+}
+.contact-link-img-linkedin img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-link-img-github img {
+  height: 90%;
+  width: 65%;
+}
+
+.contact-link-img-email img {
+  height: 80%;
+  width: 80%;
+}
