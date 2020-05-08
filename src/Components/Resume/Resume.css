@@ -4,8 +4,8 @@
 .resume-pdf {
   position: absolute;
   right: 0;
-  top: 10%;
-  bottom: 5%;
+  /* top: 10%; */
+  /* bottom: 5%; */
   height: 100%;
   width: 100%;
 }

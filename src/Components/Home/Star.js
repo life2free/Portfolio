@@ -4,16 +4,11 @@ let loadStar = function () {
   let ctx = canvas.getContext("2d");
   let homeDiv = document.querySelector(".home-div");
   let homeDivWidth = homeDiv.clientWidth || homeDiv.offsetWidth;
-  //   alert(homeDivWidth);
   let homeDivHeight = homeDiv.clientHeight || homeDiv.offsetHeight;
-  //   alert(homeDivHeight);
-  //   alert(divhome);
-  //   alert($(divhome).innerWidth());
-  //   alert($(divhome).innerHeight());
-  //   let w = (canvas.width = window.innerWidth);
-  //   let h = (canvas.height = window.innerHeight);
   let w = (canvas.width = homeDivWidth);
   let h = (canvas.height = homeDivHeight);
+  // let w = (canvas.width = window.innerWidth);
+  // let h = (canvas.height = window.innerHeight);
   let hue = 217;
   let stars = [];
   let count = 0;

@@ -43,9 +43,9 @@ class Project extends Component {
           </div>
           <div className="flip-card-back">
             <div className="project-info">
-              <h1>{name}</h1>
-              <p>{description}</p>
-              <p>{techs}</p>
+              <p className="project-info-name">{name}</p>
+              <p className="project-info-description">{description}</p>
+              <p className="project-info-techs">{techs}</p>
             </div>
 
             <div className="project-relatedlink">

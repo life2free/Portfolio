@@ -5,6 +5,10 @@ import LinkedinImg from "../../Img/linkedin.png";
 import EmailImg from "../../Img/email.png";
 
 class Contact extends Component {
+  componentDidMount() {
+    this.props.setHighLight(this.props.index);
+  }
+
   gotoLinkHandle = (e) => {
     e.preventDefault();
     let url = e.target.getAttribute("url");
@@ -15,7 +19,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-div">
-        <p className="contact-title">Contact</p>
+        <p className="contact-title">Keep in touch!</p>
         <div className="contact-info">
           <p>
             If you have any questions or want to talk with me, please feel free

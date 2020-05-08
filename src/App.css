@@ -59,30 +59,44 @@
   /* grid-row: 1;
   grid-column: 1; */
   /* width: 15%; */
-  /* display: flex; */
-  /* justify-content: center; */
-  font-size: 1em;
+  margin-left: 1%;
+  position: fixed;
+  height: 10vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.9em;
+  z-index: 20;
 }
 
 .Nav-list {
   /* grid-row: 1;
   grid-column: 2; */
-  /* width: 70%; */
-  display: flex;
+  width: 70%;
+  /* display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .Nav-item {
+  /* width: 15vw; */
+  width: 100%;
   margin: 0 5%;
+  border-radius: 5px;
 }
 
 .Nav-item a {
   color: white;
   text-decoration: none;
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 1.3em;
+  font-weight: 300;
 }
 
 .App-main {
@@ -91,4 +105,8 @@
   /* margin-top: 5%; */
   height: 90vh;
   /* width: 100vw; */
+}
+
+.highlight {
+  background-color: #2980b9;
 }

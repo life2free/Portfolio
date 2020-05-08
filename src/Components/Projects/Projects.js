@@ -3,6 +3,9 @@ import "./Projects.css";
 import ProjectList from "./ProjectList";
 
 class Projects extends Component {
+  componentDidMount() {
+    this.props.setHighLight(this.props.index);
+  }
   viewMoreHandle = (e) => {
     e.preventDefault();
     window.open("https://github.com/life2free");

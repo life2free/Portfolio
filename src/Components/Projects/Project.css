@@ -33,7 +33,7 @@
 .project-title {
   height: 8%;
   width: 100%;
-  color: lightslategray;
+  color: #2980b9;
   font-weight: bolder;
   font-size: 1.3em;
   /* background-color: lightslategray; */
@@ -90,31 +90,57 @@
 }
 
 .project-info {
-  height: 70%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5%;
+}
+
+.project-info-name {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.project-info-description {
+  margin: 2% 10%;
+  font-size: 1em;
+}
+
+.project-info-techs {
+  margin: 5% 10%;
+  font-size: 1.3em;
 }
 
 .project-relatedlink {
-  height: 30%;
+  margin-top: 5%;
+  height: 40%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .visit-link {
-  width: 20%;
-  height: 25%;
+  width: 18%;
+  /* height: 22%; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
+  font-weight: 500;
   background-color: lightslategray;
-  border-radius: 2%;
-  /* margin-right: 2%;
-  border: 1px solid blanchedalmond; */
+  border-radius: 5px;
+  margin-right: 5%;
+  /* border: 1px solid blanchedalmond; */
+}
+
+.normal .visit-link {
+  height: 25%;
+}
+
+.wider .visit-link {
+  height: 33%;
 }
 
 .github {
@@ -123,11 +149,17 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 .github img {
   /* height: 30%; */
+  height: 100%;
   width: 100%;
   /* background-color: transparent; */
+}
+
+.github img:hover {
+  transform: scale(1.3);
+  transition: all 0.8s;
 }
