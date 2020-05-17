@@ -67,7 +67,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
+  font-size: 1.5vw;
   z-index: 20;
 }
 
@@ -95,7 +96,10 @@
   color: white;
   text-decoration: none;
   font-weight: lighter;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
+  /* font-size: calc(1.3rem + 0.5vw); */
+  font-size: 2vw;
+
   font-weight: 300;
 }
 

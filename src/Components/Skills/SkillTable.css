@@ -4,7 +4,7 @@
   justify-content: flex-start;
   align-items: center;
   margin: 2% 1% 0 1%;
-  height: 60vh;
+  height: 65vh;
   width: 17vw;
   /* border: 1px solid gray; */
   border-radius: 2%;
@@ -29,7 +29,9 @@
 }
 
 .skilltable-category p {
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
+  font-size: 1.5vw;
+  font-weight: 500;
 }
 
 .skilltable-acquiredSkills {
@@ -41,12 +43,13 @@
 }
 
 .skilltable-acquiredSkills-item {
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
+  font-size: 1.3vw;
   margin: 3% 0;
 }
 
 .skilltable-div:hover {
   /* transform: scale(1.2); */
-  transform: scale(1.1) translateY(-30px);
+  transform: scale(1.1) translateY(-20px);
   transition: all 0.8s;
 }

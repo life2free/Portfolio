@@ -6,7 +6,8 @@
   height: 10%;
   width: 100%;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 4em;
+  /* font-size: 4em; */
+  font-size: 3.5vw;
   font-weight: bolder;
 }
 .about-content {
@@ -40,7 +41,8 @@
 }
 
 .about-content-jobtitle {
-  font-size: 2.5em;
+  /* font-size: 2.5em; */
+  font-size: 2.5vw;
   color: #2980b9;
   font-weight: bolder;
   margin-bottom: 0;
@@ -49,6 +51,7 @@
 .about-content-detail-info {
   margin-right: 20%;
   text-align: left;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1.5vw;
   line-height: 1.8;
 }

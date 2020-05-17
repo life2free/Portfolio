@@ -35,7 +35,8 @@
   width: 100%;
   color: #2980b9;
   font-weight: bolder;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
+  font-size: 1.3vw;
   /* background-color: lightslategray; */
   display: flex;
   justify-content: center;
@@ -99,18 +100,21 @@
 }
 
 .project-info-name {
-  font-size: 2em;
+  /* font-size: 2em; */
+  font-size: 2vw;
   font-weight: 500;
 }
 
 .project-info-description {
   margin: 2% 10%;
-  font-size: 1em;
+  /* font-size: 1em; */
+  font-size: 1vw;
 }
 
 .project-info-techs {
   margin: 5% 10%;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
+  font-size: 1.3vw;
 }
 
 .project-relatedlink {
@@ -122,12 +126,14 @@
 }
 
 .visit-link {
-  width: 18%;
+  /* width: 18%; */
+  width: 3.5vw;
   /* height: 22%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
+  font-size: 1.3vw;
   font-weight: 500;
   background-color: lightslategray;
   border-radius: 5px;
@@ -135,16 +141,20 @@
   /* border: 1px solid blanchedalmond; */
 }
 
-.normal .visit-link {
-  height: 25%;
+.normal .visit-link,
+.github {
+  /* height: 25%; */
+  height: 5vh;
 }
 
-.wider .visit-link {
-  height: 33%;
+.wider .visit-link,
+.github {
+  /* height: 33%; */
+  height: 6vh;
 }
 
 .github {
-  width: 15%;
+  width: 4vw;
   /* height: 50%; */
   display: flex;
   justify-content: flex-start;
@@ -155,7 +165,8 @@
 .github img {
   /* height: 30%; */
   height: 100%;
-  width: 100%;
+  width: 90%;
+
   /* background-color: transparent; */
 }
 

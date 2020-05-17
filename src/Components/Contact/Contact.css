@@ -7,19 +7,21 @@
 .contact-title {
   margin-top: 15vh;
   margin-bottom: 1vh;
-  font-size: 4.5em;
+  /* font-size: 4.5em; */
+  font-size: 3.5vw;
   color: #2980b9;
   font-weight: bolder;
 }
 
 .contact-info {
   margin-top: 1vh;
-  font-size: 1em;
+  /* font-size: 1em; */
+  font-size: 1.3vw;
 }
 
-.contact-info p {
+/* .contact-info p {
   font-size: 1.5em;
-}
+} */
 
 .contact-link {
   margin: 5% 20% 0 20%;
