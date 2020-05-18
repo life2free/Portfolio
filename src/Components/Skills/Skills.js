@@ -26,7 +26,14 @@ const skillList = [
   {
     imgUrl: FrameWork,
     category: "FrameWork",
-    acquiredSkills: ["Spring", "Django", "Express", "Hibernate", "Struts"],
+    acquiredSkills: [
+      "Spring",
+      "Django",
+      "Express",
+      "Hibernate",
+      "Struts",
+      "Spring Boot",
+    ],
   },
   {
     imgUrl: Tools,
