@@ -37,17 +37,17 @@ const projectList = [
       "https://thunderous-component-library.netlify.app/?path=/story/button-primary--primary",
     wider: true,
   },
+
   {
-    name: "News Assistant",
-    imgUrl: NewsAssitant,
+    name: "National Parks",
+    imgUrl: NationalParks,
     description:
-      "A full stack application for users to search, create, edit, delete the news. Built the front-end with React, JavaScript. Implemented the RESTful Api for back-end with Node, Express and MongoDB.",
-    techs: "React | Node | Express | MongoDB | JavaScript | Html | CSS",
-    githubUrl: "https://github.com/life2free/news-assistant",
-    deployUrl: "https://thunderous-news-assistant.netlify.app/",
+      "A React app that communicate with 3rd-party APIs. Gets the natinal parks' information from public API and displays.",
+    techs: "React | Javascript | Html | CSS",
+    githubUrl: "https://git.generalassemb.ly/shimin/react-router-lab",
+    deployUrl: "https://nationalparksviewer.netlify.app",
     wider: true,
   },
-  //   { name: "National Parks", imgUrl: NationalParks, wider: true },
   {
     name: "Contact Book",
     imgUrl: ContactBook,
@@ -57,6 +57,16 @@ const projectList = [
     githubUrl: "https://github.com/life2free/ContactBook_CommandLine",
     deployUrl: "https://github.com/life2free/ContactBook_CommandLine",
     wider: false,
+  },
+  {
+    name: "News Assistant",
+    imgUrl: NewsAssitant,
+    description:
+      "A full stack application for users to search, create, edit, delete the news. Built the front-end with React, JavaScript. Implemented the RESTful Api for back-end with Node, Express and MongoDB.",
+    techs: "React | Node | Express | MongoDB | JavaScript | Html | CSS",
+    githubUrl: "https://github.com/life2free/news-assistant",
+    deployUrl: "https://thunderous-news-assistant.netlify.app/",
+    wider: true,
   },
 ];
 
