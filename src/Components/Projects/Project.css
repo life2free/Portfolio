@@ -4,19 +4,22 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 2% 2%;
-  height: 60vh;
+  margin: 1% 1%;
+  /* height: 60vh; */
+  height: 40vh;
   /* border: 1px solid gray; */
   border-radius: 2%;
   /* box-shadow: 0px 0px 10px 10px grey; */
 }
 
 .normal {
-  width: 20vw;
+  /* width: 20vw; */
+  width: 14vw;
 }
 
 .wider {
-  width: 44vw;
+  /* width: 44vw; */
+  width: 25vw;
 }
 
 .project-img {
@@ -36,7 +39,7 @@
   color: #2980b9;
   font-weight: bolder;
   /* font-size: 1.3em; */
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   /* background-color: lightslategray; */
   display: flex;
   justify-content: center;
@@ -88,6 +91,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding-top: 1vh;
 }
 
 .project-info {
@@ -96,29 +100,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 
 .project-info-name {
   /* font-size: 2em; */
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 500;
+  margin-bottom: 1vh;
 }
 
 .project-info-description {
-  margin: 2% 10%;
+  margin: 1% 10%;
   /* font-size: 1em; */
-  font-size: 1vw;
+  font-size: 0.8vw;
 }
 
 .project-info-techs {
-  margin: 5% 10%;
+  margin: 2% 10%;
   /* font-size: 1.3em; */
-  font-size: 1.3vw;
+  font-size: 1.1vw;
 }
 
 .project-relatedlink {
-  margin-top: 5%;
+  margin-top: 5vh;
   height: 40%;
   display: flex;
   justify-content: center;
@@ -133,7 +138,7 @@
   justify-content: center;
   align-items: center;
   /* font-size: 1.5em; */
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   font-weight: 500;
   background-color: lightslategray;
   border-radius: 5px;

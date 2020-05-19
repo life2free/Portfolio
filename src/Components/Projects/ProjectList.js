@@ -25,7 +25,7 @@ const projectList = [
     techs: "Javascript | jQuery | Html | CSS",
     githubUrl: "https://github.com/life2free/Hanoi",
     deployUrl: "https://life2free.github.io/Hanoi/",
-    wider: false,
+    wider: true,
   },
   {
     name: "Component Library",
