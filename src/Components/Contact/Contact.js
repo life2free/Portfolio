@@ -33,7 +33,7 @@ class Contact extends Component {
               src={LinkedinImg}
               alt="Linkedin"
               onClick={this.gotoLinkHandle}
-              url="https://www.linkedin.com/in/shimin-rao-25811956/"
+              url="https://www.linkedin.com/in/shiminrao"
             ></img>
           </div>
           <div className="contact-link-img contact-link-img-github">
