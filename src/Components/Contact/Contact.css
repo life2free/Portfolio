@@ -5,7 +5,7 @@
   align-items: center;
 }
 .contact-title {
-  margin-top: 15vh;
+  margin-top: 10vw;
   margin-bottom: 1vh;
   /* font-size: 4.5em; */
   font-size: 3.5vw;
@@ -16,7 +16,7 @@
 .contact-info {
   margin-top: 1vh;
   /* font-size: 1em; */
-  font-size: 1.3vw;
+  font-size: 1.5vw;
 }
 
 /* .contact-info p {

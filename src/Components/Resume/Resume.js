@@ -12,9 +12,9 @@ class Resume extends Component {
         <div className="resume-opt"></div>
         <iframe
           className="resume-pdf"
-          src={`${ResumePdf}#zoom=FitH"`}
-          name="ShiminRao_Resume.pdf"
-          title="ShiminRao_Resume.pdf"
+          // src={`${ResumePdf}#zoom=FitH`}
+          src={`${ResumePdf}#view=Fit`}
+          // src={`${ResumePdf}#view=FitH,top"`}
         >
           This browser does not support PDFs. Please download the PDF to view
           it:

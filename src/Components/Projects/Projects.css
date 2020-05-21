@@ -4,9 +4,9 @@
   width: 100%;
 }
 .projects-title {
-  margin-top: 8%;
-  margin-bottom: 4%;
-  min-height: 5vh;
+  margin-top: 9vw;
+  /* margin-bottom: 4%; */
+  min-height: 5vw;
   /* max-width: 100%; */
   /* font-size: 4.5em; */
   font-size: 3.5vw;
@@ -15,17 +15,18 @@
 }
 
 .projects-list {
-  height: 80%;
+  height: auto;
 }
 
 .projects-view-more {
-  height: 10%;
+  /* height: 10%; */
+  height: auto;
   margin-bottom: 3%;
 }
 
 .projects-view-more-btn {
-  margin-top: 2%;
-  min-height: 8vh;
+  margin-top: 3vw;
+  height: 4vw;
   min-width: 20vw;
   color: white;
   /* font-size: 1.5em; */

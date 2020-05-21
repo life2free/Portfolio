@@ -44,7 +44,7 @@ class Contact extends Component {
               url="https://github.com/life2free"
             ></img>
           </div>
-          <div className="contact-link-img-email">
+          <div className="contact-link-img  contact-link-img-email">
             <a href="mailto:thunderous_0518@hotmail.com">
               <img src={EmailImg} alt="Email"></img>
             </a>
