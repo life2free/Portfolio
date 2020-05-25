@@ -6,7 +6,6 @@ import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Resume from "./Components/Resume/Resume";
 import Contact from "./Components/Contact/Contact";
-import MyForm from "./Components/Contact/MyForm";
 import "./App.css";
 
 class App extends Component {
@@ -104,12 +103,6 @@ class App extends Component {
             path="/contact"
             render={() => {
               return <Contact setHighLight={this.setHighLight} index="5" />;
-            }}
-          />
-          <Route
-            path="/test"
-            render={() => {
-              return <MyForm setHighLight={this.setHighLight} index="6" />;
             }}
           />
         </main>
