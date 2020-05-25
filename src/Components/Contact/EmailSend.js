@@ -133,10 +133,10 @@ class EmailSend extends Component {
     // alert("ok");
     // console.log(this.recaptcha);
     // this.recaptcha.size = "invisible";
-    document.querySelector(".reaptcha-div").classList.toggle("div_invisible");
+    document.querySelector(".reaptcha-div").classList.toggle("div-invisible");
     document
-      .querySelector(".emailsend_form_div")
-      .classList.toggle("div_invisible");
+      .querySelector(".emailsend-form-div")
+      .classList.toggle("div-invisible");
   };
 
   trySendAgainHandle = (e) => {
@@ -149,21 +149,21 @@ class EmailSend extends Component {
 
     if (sendStatus !== "") {
       let emailSendResultMessageEle = document.getElementById(
-        "emailsend_resultmessage"
+        "emailsend-resultmessage"
       );
       if (sendStatus === "SUCCESS") {
         emailSendResultMessageEle.innerText =
           "Thanks! I will reply to you ASAP.";
-        emailSendResultMessageEle.className = "emailsend_success";
+        emailSendResultMessageEle.className = "emailsend-success";
       } else if (sendStatus === "FAILURE") {
         emailSendResultMessageEle.innerText =
           "Ooops! Send failed. You can try again";
-        emailSendResultMessageEle.className = "emailsend_failure";
+        emailSendResultMessageEle.className = "emailsend-failure";
       }
 
       document
-        .querySelector(".emailsend_trymore")
-        .classList.toggle("div_invisible");
+        .querySelector(".emailsend-trymore")
+        .classList.toggle("div-invisible");
     }
 
     return (
@@ -177,8 +177,8 @@ class EmailSend extends Component {
             // explicit
           />
         </div>
-        <div className="emailsend_form_div div_invisible">
-          <form className="emailsend_form" onSubmit={this.handleSubmit}>
+        <div className="emailsend-form-div div-invisible">
+          <form className="emailsend-form" onSubmit={this.handleSubmit}>
             <div className="name-container email-property-container">
               <input
                 type="text"
@@ -229,9 +229,9 @@ class EmailSend extends Component {
                 onChange={this.changeHandle}
               />
             </div>
-            <div className="emailsend_submit_div">
+            <div className="eemailsend-submit-div">
               <input
-                className="emailsend_submit"
+                className="emailsend-submit"
                 value="Send"
                 type="submit"
                 disabled={!this.state.enableSend}
@@ -239,12 +239,12 @@ class EmailSend extends Component {
             </div>
           </form>
         </div>
-        <div className="emailsend_resultmessage_div">
-          <p id="emailsend_resultmessage"></p>
-          <p className="emailsend_trymore div_invisible">
+        <div className="emailsend-resultmessage-div">
+          <p id="emailsend-resultmessage"></p>
+          <p className="emailsend-trymore div-invisible">
             Click{" "}
             <a
-              className="emailsend_trymore_link"
+              className="emailsend-trymore-link"
               href="#"
               onClick={this.trySendAgainHandle}
             >

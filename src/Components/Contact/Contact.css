@@ -7,36 +7,20 @@
   align-items: center;
 }
 
-.contact-info-div {
-  /* height: 14vw; */
-}
-
 .contact-title {
-  /* height: 2vw; */
-  /* margin-top: 9vw; */
   margin-bottom: 1vw;
-  /* font-size: 4.5em; */
-  /* font-size: 3.5vw; */
   font-size: 4.5rem;
   font-weight: 900;
   color: #2980b9;
 }
 
 .contact-info {
-  /* margin-top: 1vh; */
-  /* font-size: 1em; */
-  /* height: 5vw; */
-  /* font-size: 2.5rem; */
   font-size: 1.9vw;
 }
 
 .contact-info-detail {
   margin: 0;
 }
-
-/* .contact-info p {
-  font-size: 1.5em;
-} */
 
 .contact-link {
   height: 8vw;
@@ -46,11 +30,8 @@
   align-items: center;
 }
 .contact-link-img {
-  /* height: 10vh;
-  width: 8vw; */
   height: 6vw;
   width: 11vw;
-  /* margin: 0; */
 }
 .contact-link-img-linkedin img {
   height: 100%;
@@ -74,22 +55,9 @@
   transition: all 0.8s;
 }
 
-/* .contact-emailsend {
-  width: 25vw;
-  height: 21vw;
-  border-radius: 5px;
-  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: lightgray;
-} */
-
 .contact-emailsend {
   margin: 2% 0;
   width: 100vw;
-  /* height: 26vw; */
   height: 420px;
 }
 

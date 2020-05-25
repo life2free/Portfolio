@@ -22,7 +22,7 @@ class Contact extends Component {
     return (
       <div className="contact-div">
         <div className="contact-info-div">
-          <div className="contact_title_div">
+          <div className="contact-title-div">
             <p className="contact-title">Keep in touch!</p>
           </div>
           <div className="contact-info">
