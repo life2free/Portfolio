@@ -31,16 +31,15 @@ let loadStar = function () {
 
   ctx.fillStyle = "#ffffff";
   //   ctx.textBaseline = "top";
-  ctx.fillText("Keyboard Cat", 0, 270);
+  ctx.fillText("Shimin Rao", 0, 270);
 
-  // Thanks @jackrugile for the performance tip! http://codepen.io/jackrugile/pen/BjBGoM
   // Cache gradient
   let canvas2 = document.createElement("canvas");
   let ctx2 = canvas2.getContext("2d");
   canvas2.width = 100;
   canvas2.height = 100;
-  let half = canvas2.width / 2,
-    gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+  let half = canvas2.width / 2;
+  let gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
   gradient2.addColorStop(0.025, "#fff");
   gradient2.addColorStop(0.1, "hsl(" + hue + ", 61%, 33%)");
   gradient2.addColorStop(0.25, "hsl(" + hue + ", 64%, 6%)");

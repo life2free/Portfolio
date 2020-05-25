@@ -25,7 +25,7 @@ class SkillTable extends Component {
           <img src={imgUrl} alt={category} />
         </div>
         <div className="skilltable-category">
-          <p>{category}</p>
+          <p className="skilltable-category-info">{category}</p>
         </div>
         <div className="skilltable-acquiredSkills">{list}</div>
       </div>

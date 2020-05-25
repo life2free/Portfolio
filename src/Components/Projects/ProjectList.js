@@ -77,11 +77,9 @@ class ProjectList extends Component {
   render() {
     let list = "";
     list = projectList.map((item, i) => {
-      if (item.wider) {
-        return <Project project={item} key={i} wider />;
-      } else {
-        return <Project project={item} key={i} />;
-      }
+      return (
+        <Project project={item} key={i} wider={item.wider ? "wider" : ""} />
+      );
     });
 
     return <div className="projects-list-div">{list}</div>;

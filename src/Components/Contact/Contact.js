@@ -3,6 +3,8 @@ import "./Contact.css";
 import GitHubImg from "../../Img/github.png";
 import LinkedinImg from "../../Img/linkedin.png";
 import EmailImg from "../../Img/email.png";
+import Config from "../../Config/Config";
+import EmailSend from "./EmailSend";
 
 class Contact extends Component {
   componentDidMount() {
@@ -19,13 +21,22 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-div">
-        <p className="contact-title">Keep in touch!</p>
-        <div className="contact-info">
-          <p>
-            If you have any questions or want to talk with me, please feel free
-            to contact me.
-          </p>
-          <p>I'd love to hear from you. Let's get in contact!</p>
+        <div className="contact-info-div">
+          <div className="contact_title_div">
+            <p className="contact-title">Keep in touch!</p>
+          </div>
+          <div className="contact-info">
+            <p className="contact-info-detail">
+              If you have any questions or want to talk with me, please feel
+              free to contact me.
+            </p>
+            <p className="contact-info-detail">
+              I'd love to hear from you. Let's get in contact!
+            </p>
+          </div>
+        </div>
+        <div className="contact-emailsend">
+          <EmailSend />
         </div>
         <div className="contact-link">
           <div className="contact-link-img contact-link-img-linkedin">
@@ -33,7 +44,7 @@ class Contact extends Component {
               src={LinkedinImg}
               alt="Linkedin"
               onClick={this.gotoLinkHandle}
-              url="https://www.linkedin.com/in/shiminrao"
+              url={Config.LinkedIn}
             ></img>
           </div>
           <div className="contact-link-img contact-link-img-github">
@@ -41,14 +52,14 @@ class Contact extends Component {
               src={GitHubImg}
               alt="Github"
               onClick={this.gotoLinkHandle}
-              url="https://github.com/life2free"
+              url={Config.GitHub}
             ></img>
           </div>
-          <div className="contact-link-img  contact-link-img-email">
+          {/* <div className="contact-link-img  contact-link-img-email">
             <a href="mailto:thunderous_0518@hotmail.com">
               <img src={EmailImg} alt="Email"></img>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     );

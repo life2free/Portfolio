@@ -37,7 +37,7 @@ const skillList = [
   },
   {
     imgUrl: Tools,
-    category: "TOOLS & OTHERS",
+    category: "OTHERS",
     acquiredSkills: [
       "Eclipse",
       "IntelliJ IDEA",
@@ -47,7 +47,7 @@ const skillList = [
       "Maven",
       "Jenkins",
       "Tomcat",
-      "IIS",
+      // "IIS",
       "Ant",
     ],
   },
