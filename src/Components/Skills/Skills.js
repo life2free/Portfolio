@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./Skills.css";
 import SkillTable from "./SkillTable";
-import FrontEnd from "../../Img/frontend.png";
-import BackEnd from "../../Img/backend.jpeg";
-import Database from "../../Img/database.png";
-import FrameWork from "../../Img/framework.png";
-import Tools from "../../Img/tools.png";
+import FrontEnd from "../../Statics/Img/frontend.png";
+import BackEnd from "../../Statics/Img/backend.jpeg";
+import Database from "../../Statics/Img/database.png";
+import FrameWork from "../../Statics/Img/framework.png";
+import Tools from "../../Statics/Img/tools.png";
 
 const skillList = [
   {
@@ -65,10 +65,7 @@ class Skills extends Component {
     return (
       <div className="skills-div">
         <div className="skills-title">My Skills</div>
-        <div className="skills-list">
-          {/* <SkillList /> */}
-          {list}
-        </div>
+        <div className="skills-list">{list}</div>
       </div>
     );
   }

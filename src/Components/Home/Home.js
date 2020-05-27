@@ -10,7 +10,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home-div">
-        <div className="myinfo-div">
+        <div className="myinfo-div myinfo-bounce">
           <p className="myinfo-intro">
             Hello, My name is <span className="myname">Shimin Rao</span>
           </p>

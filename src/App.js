@@ -7,6 +7,7 @@ import Projects from "./Components/Projects/Projects";
 import Resume from "./Components/Resume/Resume";
 import Contact from "./Components/Contact/Contact";
 import "./App.css";
+import Test from "./Components/Projects/Test";
 
 class App extends Component {
   constructor(props) {
@@ -103,6 +104,12 @@ class App extends Component {
             path="/contact"
             render={() => {
               return <Contact setHighLight={this.setHighLight} index="5" />;
+            }}
+          />
+          <Route
+            path="/test"
+            render={() => {
+              return <Test setHighLight={this.setHighLight} index="6" />;
             }}
           />
         </main>

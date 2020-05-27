@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Resume.css";
-import ResumePdf from "../../Files/resume.pdf";
+import ResumePdf from "../../Statics/Files/resume.pdf";
 
 class Resume extends Component {
   componentDidMount() {

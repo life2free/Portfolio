@@ -21,9 +21,9 @@ class SkillTable extends Component {
     });
     return (
       <div className="skilltable-div">
-        <div className="skilltable-img">
+        {/* <div className="skilltable-img">
           <img src={imgUrl} alt={category} />
-        </div>
+        </div> */}
         <div className="skilltable-category">
           <p className="skilltable-category-info">{category}</p>
         </div>

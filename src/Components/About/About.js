@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import Avatar from "../../Img/avatar.png";
+import Avatar from "../../Statics/Img/avatar.png";
 
 // function About() {
 class About extends Component {

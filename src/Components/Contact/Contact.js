@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./Contact.css";
-import GitHubImg from "../../Img/github.png";
-import LinkedinImg from "../../Img/linkedin.png";
-import EmailImg from "../../Img/email.png";
+import GitHubImg from "../../Statics/Img/github.png";
+import LinkedinImg from "../../Statics/Img/linkedin.png";
+// import EmailImg from "../../Statics/Img/email.png";
 import Config from "../../Config/Config";
 import EmailSend from "./EmailSend";
 

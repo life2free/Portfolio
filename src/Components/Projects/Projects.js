@@ -18,7 +18,7 @@ class Projects extends Component {
         <div className="projects-list">
           <ProjectList />
         </div>
-        <div style={{ clear: "left" }}></div>
+        {/* <div style={{ clear: "left" }}></div> */}
         <div className="projects-view-more">
           <button
             className="projects-view-more-btn"

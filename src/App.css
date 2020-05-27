@@ -117,10 +117,11 @@
 }
 
 .App-main {
-  margin-top: 4vw;
+  margin-top: 4vh;
   /* top: 3vw; */
   /* margin-top: 5%; */
-  height: 94vh;
+  height: 96vh;
+  /* height: auto; */
   /* width: 100vw; */
 }
 
