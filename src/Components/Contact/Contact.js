@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Contact.css";
 import GitHubImg from "../../Statics/Img/github.png";
 import LinkedinImg from "../../Statics/Img/linkedin.png";
-// import EmailImg from "../../Statics/Img/email.png";
+import EmailImg from "../../Statics/Img/email.png";
 import Config from "../../Config/Config";
 import EmailSend from "./EmailSend";
 
@@ -26,10 +26,10 @@ class Contact extends Component {
             <p className="contact-title">Keep in touch!</p>
           </div>
           <div className="contact-info">
-            <p className="contact-info-detail">
+            {/* <p className="contact-info-detail">
               If you have any questions or want to talk with me, please feel
               free to contact me.
-            </p>
+            </p> */}
             <p className="contact-info-detail">
               I'd love to hear from you. Let's get in contact!
             </p>

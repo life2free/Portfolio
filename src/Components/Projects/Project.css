@@ -265,10 +265,6 @@
 }
 
 @media only screen and (max-width: 1280px) {
-  .project-title {
-    font-size: 1rem;
-  }
-
   .project-info-name {
     font-size: 1.4rem;
   }
@@ -282,7 +278,6 @@
   }
 
   .visit-link {
-    /* width: 3vw; */
     font-size: 1rem;
   }
 
@@ -301,6 +296,10 @@
 
 /* Extra Large devices */
 @media only screen and (max-width: 1200px) {
+  .project-title {
+    font-size: 0.95rem;
+  }
+
   .project-info-name {
     font-size: 1.3rem;
   }
@@ -375,6 +374,10 @@
 }
 
 @media only screen and (max-width: 854px) {
+  .project-title {
+    font-size: 0.9rem;
+  }
+
   .project-info-name {
     font-size: 1.3rem;
   }
@@ -395,6 +398,10 @@
 
 /* Medium devices */
 @media only screen and (max-width: 768px) {
+  .project-title {
+    font-size: 0.85rem;
+  }
+
   .project-info-name {
     font-size: 1.2rem;
   }
@@ -455,6 +462,9 @@
 
 /* Small devices */
 @media only screen and (max-width: 576px) {
+  .project-title {
+    font-size: 0.8rem;
+  }
   .project-info-name {
     font-size: 1.2rem;
   }

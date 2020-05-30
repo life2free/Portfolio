@@ -3,7 +3,7 @@
   /* background-color: #ecffff; */
 }
 .about-title {
-  margin-top: 4vw;
+  margin-top: 8vw;
   height: 10%;
   width: 100%;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -37,13 +37,26 @@
   width: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 
+li {
+  font-size: 1.3vw;
+  color: #3f3c3c;
+  list-style-type: disc;
+  text-align: left;
+  margin: 1.5% 0;
+  margin-right: 20%;
+}
+
+/* ul.a {
+  list-style-type: circle;
+} */
+
 .about-content-jobtitle {
   /* font-size: 2.5em; */
-  font-size: 3vw;
+  font-size: 2.5vw;
   color: #2980b9;
   font-weight: bolder;
   margin-bottom: 0;
@@ -53,6 +66,109 @@
   margin-right: 15%;
   text-align: left;
   /* font-size: 1.5em; */
-  font-size: 2vw;
+  color: #3f3c3c;
+  font-size: 1.5vw;
   line-height: 1.5;
+}
+
+@media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 1360px) {
+  li {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+}
+
+/* Extra Large devices */
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+/* Large devices */
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 854px) {
+  .about-content-jobtitle {
+    font-size: 1.6rem;
+  }
+
+  .about-content-detail-info {
+    font-size: 1.1rem;
+  }
+}
+
+/* Medium devices */
+@media only screen and (max-width: 768px) {
+  .about-content-jobtitle {
+    font-size: 1.45rem;
+  }
+
+  .about-content-detail-info,
+  li {
+    font-size: 0.95rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .about-content-jobtitle {
+    font-size: 1.35rem;
+  }
+
+  .about-content-detail-info,
+  li {
+    font-size: 0.85rem;
+  }
+}
+
+/* Small devices */
+@media only screen and (max-width: 576px) {
+  .about-content-jobtitle {
+    font-size: 1.2rem;
+  }
+
+  .about-content-detail-info,
+  li {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-content-jobtitle {
+    font-size: 1.05rem;
+  }
+
+  .about-content-detail-info,
+  li {
+    font-size: 0.75rem;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 375px) {
+  .about-content-jobtitle {
+    font-size: 0.9rem;
+  }
+
+  .about-content-detail-info,
+  li {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .about-content-jobtitle {
+    font-size: 3.5vw;
+  }
+
+  .about-content-detail-info,
+  li {
+    font-size: 3vw;
+  }
 }

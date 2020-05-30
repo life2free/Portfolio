@@ -64,7 +64,7 @@ class Skills extends Component {
     });
     return (
       <div className="skills-div">
-        <div className="skills-title">My Skills</div>
+        {/* <div className="skills-title">My Skills</div> */}
         <div className="skills-list">{list}</div>
       </div>
     );

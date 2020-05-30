@@ -34,9 +34,6 @@ class EmailSend extends Component {
       };
       fetch(`${Config.FormspreeApi}`, requestOptions)
         .then((response) => {
-          console.log("response: ");
-          console.log(response);
-
           if (response.status === 200) {
             console.log("success");
             this.setState({
@@ -125,14 +122,6 @@ class EmailSend extends Component {
 
   // specifying verify callback function
   verifyCallback = (response) => {
-    // console.log(response);
-    // alert(response);
-    // this.setState({
-    //   verified: true,
-    // });
-    // alert("ok");
-    // console.log(this.recaptcha);
-    // this.recaptcha.size = "invisible";
     document.querySelector(".reaptcha-div").classList.toggle("div-invisible");
     document
       .querySelector(".emailsend-form-div")
@@ -157,7 +146,7 @@ class EmailSend extends Component {
         emailSendResultMessageEle.className = "emailsend-success";
       } else if (sendStatus === "FAILURE") {
         emailSendResultMessageEle.innerText =
-          "Ooops! Send failed. You can try again";
+          "Ooops! Send failed. You can try again.";
         emailSendResultMessageEle.className = "emailsend-failure";
       }
 
@@ -242,6 +231,7 @@ class EmailSend extends Component {
         <div className="emailsend-resultmessage-div">
           <p id="emailsend-resultmessage"></p>
           <p className="emailsend-trymore div-invisible">
+            {" "}
             Click{" "}
             <a
               className="emailsend-trymore-link"

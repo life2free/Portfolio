@@ -7,6 +7,12 @@
   align-items: center;
 }
 
+.reaptcha-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .email-property-container {
   margin: 1% 0;
   display: flex;
@@ -16,15 +22,16 @@
 }
 
 .emailsend-form-div {
-  width: 20%;
+  width: 25%;
   height: 100%;
-  border-radius: 2px;
-  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 1px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  /* border: 1px solid #3f3c3c; */
+  background-color: lightblue;
 }
 
 .emailsend-form {
@@ -57,7 +64,7 @@
 }
 
 #emailsend-resultmessage {
-  margin-top: 1vw;
+  /* margin-top: 1vw; */
 }
 
 .emailsend-success,
@@ -79,7 +86,12 @@
 }
 
 .emailsend-resultmessage-div {
-  height: 4vw;
+  margin-top: 2vw;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7vw;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -173,6 +185,10 @@
   .emailsend-submit {
     font-size: 1.05rem;
   }
+
+  .emailsend-resultmessage-div {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 854px) {
@@ -242,6 +258,10 @@
   .emailsend-submit {
     font-size: 0.85rem;
   }
+
+  .emailsend-resultmessage-div {
+    font-size: 0.9rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -257,6 +277,10 @@
 
   .email-property-input,
   .emailsend-submit {
+    font-size: 0.8rem;
+  }
+
+  .emailsend-resultmessage-div {
     font-size: 0.8rem;
   }
 }
@@ -276,9 +300,21 @@
   .emailsend-submit {
     font-size: 0.75rem;
   }
+
+  .emailsend-div {
+    height: 220px;
+  }
+
+  .emailsend-resultmessage-div {
+    font-size: 3.5vw;
+  }
 }
 
 @media only screen and (max-width: 320px) {
+  .emailsend-div {
+    height: 225px;
+  }
+
   .emailsend-form-div {
     width: 60%;
   }
@@ -291,6 +327,10 @@
 
   .email-property-input,
   .emailsend-submit {
-    font-size: 4vw;
+    font-size: 0.8rem;
+  }
+
+  .emailsend-resultmessage-div {
+    font-size: 3.8vw;
   }
 }

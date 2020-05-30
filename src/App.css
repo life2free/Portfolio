@@ -20,18 +20,14 @@
 }
 
 .App-header {
-  /* height: auto; */
   height: 4vw;
   width: 100vw;
   background-color: #282c34;
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 5fr 1fr; */
+
   font-size: calc(10px + 2vmin);
   color: white;
   position: fixed;
@@ -57,9 +53,6 @@
 }
 
 .Nav-myname {
-  /* grid-row: 1;
-  grid-column: 1; */
-  /* width: 15%; */
   margin-left: 1%;
   position: fixed;
   height: 4vw;
@@ -68,28 +61,16 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /* font-size: 0.9em; */
-  /* font-size: 1.6vw; */
   z-index: 20;
 }
 
 .Nav-myname-info {
   font-size: 1.5vw;
-  /* font-weight: 500; */
-  /* font-size: 2rem; */
 }
 
 .Nav-list {
-  /* grid-row: 1;
-  grid-column: 2; */
-  /* margin: 0; */
   width: 75%;
   height: 100%;
-  /* width: auto; */
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; */
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -109,20 +90,15 @@
 .Nav-item a {
   color: white;
   text-decoration: none;
-  /* font-weight: 500; */
+  font-weight: 300;
   /* font-size: 1.3em; */
   /* font-size: calc(1.3rem + 0.5vw); */
   font-size: 2vw;
-  /* font-size: 3rem; */
 }
 
 .App-main {
-  margin-top: 4vh;
-  /* top: 3vw; */
-  /* margin-top: 5%; */
-  height: 96vh;
-  /* height: auto; */
-  /* width: 100vw; */
+  /* margin-top: 2.05vw; */
+  height: 100vh;
 }
 
 .highlight {
@@ -136,14 +112,6 @@
   .contact-title {
     font-size: 4.2rem;
   }
-
-  /* .Nav-item a {
-    font-size: 2rem;
-  }
-
-  .Nav-myname-info {
-    font-size: 1.5rem;
-  } */
 }
 
 @media only screen and (max-width: 1360px) {
@@ -153,14 +121,6 @@
   .contact-title {
     font-size: 4rem;
   }
-
-  /* .Nav-item a {
-    font-size: 1.8rem;
-  }
-
-  .Nav-myname-info {
-    font-size: 1.3rem;
-  } */
 }
 
 @media only screen and (max-width: 1280px) {
@@ -170,13 +130,6 @@
   .contact-title {
     font-size: 3.8rem;
   }
-  /* .Nav-item a {
-    font-size: 1.7rem;
-  }
-
-  .Nav-myname-info {
-    font-size: 1.2rem;
-  } */
 }
 
 /* Extra Large devices */
@@ -187,14 +140,6 @@
   .contact-title {
     font-size: 3.5rem;
   }
-
-  /* .Nav-item a {
-    font-size: 1.6rem;
-  }
-
-  .Nav-myname-info {
-    font-size: 1.1rem;
-  } */
 }
 
 @media only screen and (max-width: 1024px) {
@@ -204,13 +149,6 @@
   .contact-title {
     font-size: 3rem;
   }
-  /* .Nav-item a {
-    font-size: 1.5rem;
-  }
-
-  .Nav-myname-info {
-    font-size: 1rem;
-  } */
 }
 
 /* Large devices */
@@ -249,14 +187,6 @@
   .contact-title {
     font-size: 2rem;
   }
-
-  /* .Nav-item a {
-    font-size: 1.15rem;
-  }
-
-  .Nav-myname-info {
-    font-size: 0.65rem;
-  } */
 }
 
 /* Small devices */
@@ -267,24 +197,9 @@
   .contact-title {
     font-size: 1.8rem;
   }
-
-  /* .Nav-item a {
-    font-size: 1.05rem;
-  }
-
-  .Nav-myname-info {
-    font-size: 0.55rem;
-  } */
 }
 
 @media only screen and (max-width: 480px) {
-  /* .Nav-item a {
-    font-size: 3vw;
-  }
-
-  .Nav-myname-info {
-    font-size: 2.3vw;
-  } */
 }
 
 /* Mobile */

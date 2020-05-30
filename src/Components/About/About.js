@@ -16,7 +16,7 @@ class About extends Component {
             <img src={Avatar} alt="Shimin" />
           </div>
           <div className="about-content-detail">
-            <p className="about-content-jobtitle">
+            {/* <p className="about-content-jobtitle">
               I'm a full-stack software engineer
             </p>
             <p className="about-content-detail-info">
@@ -26,7 +26,25 @@ class About extends Component {
               analyzing, and finding solutions for difficult problems. I
               consistently take on new challenges and learn technologies that
               allow me to work alongside high performing teams.
-            </p>
+            </p> */}
+            <ul>
+              {/* <li>Came form China</li> */}
+              <li>Majored in Computer Science and Technology</li>
+              <li>Graduated from Huaqiao University in 2006</li>
+              <li>
+                Worked as Software Engineer over 7 years, developed web
+                applications for financial customers with java
+              </li>
+              {/* <li>Came to US in August 2013</li> */}
+              <li>
+                Before joined General Assembly, worked part-time as a software
+                testing engineer
+              </li>
+              <li>
+                Chose General Assembly to sharpen my skills, meet new people and
+                keep myself up to date with the latest technologies
+              </li>
+            </ul>
           </div>
         </div>
       </div>

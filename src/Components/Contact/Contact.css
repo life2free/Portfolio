@@ -1,4 +1,5 @@
 .contact-div {
+  margin-top: 4vw;
   width: 100%;
   height: 100%;
   display: flex;
@@ -16,15 +17,16 @@
 }
 
 .contact-info {
-  font-size: 1.9vw;
 }
 
 .contact-info-detail {
   margin: 0;
+  font-size: 1.5vw;
+  color: #3f3c3c;
 }
 
 .contact-link {
-  height: 8vw;
+  height: 11vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -57,7 +59,7 @@
 }
 
 .contact-emailsend {
-  margin: 2% 0;
+  /* margin: 2% 0; */
   width: 100vw;
   height: 420px;
 }
@@ -82,12 +84,20 @@
 
 /* Extra Large devices */
 @media only screen and (max-width: 1200px) {
+  .contact-info-detail {
+    font-size: 1.1rem;
+  }
+
   .contact-emailsend {
     height: 330px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
+  .contact-info-detail {
+    font-size: 0.95rem;
+  }
+
   .contact-emailsend {
     height: 325px;
   }
@@ -101,6 +111,10 @@
 }
 
 @media only screen and (max-width: 854px) {
+  .contact-info-detail {
+    font-size: 0.9rem;
+  }
+
   .contact-emailsend {
     height: 290px;
   }
@@ -108,12 +122,19 @@
 
 /* Medium devices */
 @media only screen and (max-width: 768px) {
+  .contact-info-detail {
+    font-size: 0.85rem;
+  }
   .contact-emailsend {
     height: 275px;
   }
 }
 
 @media only screen and (max-width: 640px) {
+  /* .contact-info-detail {
+    font-size: 0.8rem;
+  } */
+
   .contact-emailsend {
     height: 255px;
   }
@@ -121,26 +142,61 @@
 
 /* Small devices */
 @media only screen and (max-width: 576px) {
+  .contact-info-detail {
+    font-size: 0.8rem;
+  }
+
   .contact-emailsend {
     height: 245px;
+  }
+
+  .contact-link-img {
+    height: 8vw;
+    width: 14vw;
   }
 }
 
 @media only screen and (max-width: 480px) {
+  .contact-info-detail {
+    font-size: 0.7rem;
+  }
+
   .contact-emailsend {
     height: 225px;
+  }
+
+  .contact-link-img {
+    height: 9vw;
+    width: 15vw;
   }
 }
 
 /* Mobile */
 @media only screen and (max-width: 375px) {
+  .contact-info-detail {
+    font-size: 0.6rem;
+  }
+
   .contact-emailsend {
     height: 215px;
+  }
+
+  .contact-link-img {
+    height: 10vw;
+    width: 17vw;
   }
 }
 
 @media only screen and (max-width: 320px) {
+  .contact-info-detail {
+    font-size: 3.1vw;
+  }
   .contact-emailsend {
     height: 70vw;
+  }
+
+  .contact-link-img {
+    height: 11vw;
+    width: 19vw;
   }
 }

@@ -51,8 +51,8 @@
 
 .skilltable-acquiredSkills-item {
   font-size: 1.3vw;
-  color: gray;
-  margin: 1%;
+  color: #3f3c3c;
+  margin: 1% 0;
 }
 
 .skilltable-div:hover {

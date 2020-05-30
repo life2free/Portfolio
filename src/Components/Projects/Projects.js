@@ -14,7 +14,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects-div">
-        <div className="projects-title">My Projects</div>
+        {/* <div className="projects-title">My Projects</div> */}
         <div className="projects-list">
           <ProjectList />
         </div>
