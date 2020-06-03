@@ -44,7 +44,7 @@ const projectList = [
     imgUrl: NationalParks,
     description: "A guide to National Parks in America",
     techs: "React | Javascript | HTML | CSS",
-    githubUrl: "https://git.generalassemb.ly/shimin/react-router-lab",
+    githubUrl: "https://github.com/life2free/NationalParks",
     deployUrl: "https://nationalparksviewer.netlify.app",
     width: "",
   },
