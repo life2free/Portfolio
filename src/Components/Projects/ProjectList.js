@@ -74,8 +74,8 @@ const projectList = [
     description:
       "A full stack application for developers to share ideas, discuss technologies.",
     techs: "React | Express | GitHub OAuth | MongoDB",
-    githubUrl: "https://github.com/digitalfences/EndeverBackEnd",
-    deployUrl: "https://agitated-panini-b410aa.netlify.app/",
+    githubUrl: "https://github.com/life2free/EnDever",
+    deployUrl: "https://endeverweb.netlify.app/",
     width: "",
   },
   {
