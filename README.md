@@ -15,7 +15,7 @@ Utilized React to build my portfolio which contains my experience, skillset, pro
 
 ## Deployment
 
-Deployed on Netlify, click [here](https://www.shimin.codes/) to view.
+Deployed on netlify applied my own domain name. Click [here](https://www.shimin.codes/) to view.
 
 ## Contribute
 
