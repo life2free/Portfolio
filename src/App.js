@@ -43,9 +43,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div className="Nav-myname">
+          {/* <div className="Nav-myname">
             <p className="Nav-myname-info">Shimin Rao</p>
-          </div>
+          </div> */}
           <div className="Nav-list">
             <div className="Nav-item highlight">
               <Link to="/">Home</Link>

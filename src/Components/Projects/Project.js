@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./Project.css";
-// import "./style.css";
 import GitHubImg from "../../Statics/Img/github.png";
-// import loadSwiperImageScript from "./Swiper";
 
 class Project extends Component {
   constructor(props) {
@@ -11,15 +9,6 @@ class Project extends Component {
       project: this.props.project,
     };
   }
-
-  componentDidMount() {
-    // loadSwiperImageScript();
-  }
-
-  // showProjectDetail = (e) => {
-  //   e.preventDefault();
-  //   $(".flip-card-back").slideToggle("slow");
-  // };
 
   visitLinkHandle = (e) => {
     e.preventDefault();
@@ -32,10 +21,11 @@ class Project extends Component {
   };
 
   render() {
-    let { name, imgUrl, description, techs } = {
+    let { name, imgUrl, description, techs, githubUrl, deployUrl } = {
       ...this.state.project,
     };
-    let classList = "project-div flip-card project-bounce";
+    // let classList = "project-div flip-card project-bounce";
+    let classList = "project-div project-bounce";
     if (this.props.width) {
       if (this.props.width === "wider") {
         classList += ` wider`;
@@ -91,11 +81,44 @@ class Project extends Component {
                 </li>
               </ul> */}
             </div>
-            <div className="project-title">
+            {/* <div className="project-title">
               <p>{name}</p>
+            </div> */}
+            <div className="project-info">
+              <div className="project-info-name-resource">
+                <p className="project-info-name">{name}</p>
+                <div className="project-resource">
+                  {deployUrl !== undefined ? (
+                    <a href={deployUrl} target="_blank">
+                      Visit &nbsp;&nbsp;| &nbsp;
+                    </a>
+                  ) : (
+                    ""
+                  )}
+                  <a href={githubUrl} target="_blank">
+                    GitHub
+                  </a>
+                </div>
+              </div>
+
+              <p className="project-info-description">{description}</p>
+              <p className="project-info-techs">{techs}</p>
             </div>
+
+            {/* <div className="project-relatedlink">
+              <button className="visit-link" onClick={this.visitLinkHandle}>
+                visit
+              </button>
+              <div className="github">
+                <img
+                  src={GitHubImg}
+                  alt={name}
+                  onClick={this.githubLinkHandle}
+                ></img>
+              </div>
+            </div> */}
           </div>
-          <div className="flip-card-back">
+          {/* <div className="flip-card-back">
             <div className="project-info">
               <p className="project-info-name">{name}</p>
               <p className="project-info-description">{description}</p>
@@ -114,7 +137,7 @@ class Project extends Component {
                 ></img>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

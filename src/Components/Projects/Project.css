@@ -1,23 +1,31 @@
 .project-div {
   /* float: left; */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   margin: 1% 1%;
   /* height: 60vh; */
   /* height: 25vw; */
-  height: 20vw;
+  height: 25vw;
   /* height: 30vw; */
   /* border: 1px solid gray; */
   /* border-radius: 2%; */
   /* box-shadow: 0px 0px 2px 2px grey; */
   /* border: 1px solid gray; */
   /* animation: bounceInBottom 3s cubic-bezier(0.215, 0.61, 0.355, 1); */
+  background-color: lightslategray;
+  /* background: red; */
+}
+
+.project-div:hover {
+  transform: scale(1.05);
+  transition: all 0.8s;
+  outline: thin solid gray;
 }
 
 .normal {
-  width: 20vw;
+  width: 26vw;
 }
 
 .wider {
@@ -29,7 +37,7 @@
 }
 
 .project-img {
-  height: 92%;
+  height: 75%;
   width: 100%;
   /* position: absolute;
   left: 0; */
@@ -74,9 +82,9 @@
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
-.flip-card:hover .flip-card-inner {
+/* .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-}
+} */
 
 .flip-card-front,
 .flip-card-back {
@@ -99,17 +107,15 @@
   padding-top: 1vh;
 }
 
-.project-info {
+/* .project-info {
   height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 5%; */
 }
 
 .project-info-name {
-  /* font-size: 2em; */
   font-size: 1.8vw;
   font-weight: 500;
   margin-bottom: 1vw;
@@ -117,14 +123,56 @@
 
 .project-info-description {
   margin: 1% 10%;
-  /* font-size: 1em; */
   font-size: 1vw;
 }
 
 .project-info-techs {
   margin: 2% 10%;
-  /* font-size: 1.3em; */
   font-size: 1.2vw;
+} */
+
+.project-info {
+  width: 100%;
+  height: 25%;
+  text-align: left;
+  margin: 0 1vw 1vw 1vw;
+}
+
+.project-info-name-resource {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2vw;
+}
+.project-info-name {
+  font-size: 1.1vw;
+  font-weight: 900;
+  margin: 0.5vw 0 0 0;
+  color: white;
+  /* margin-bottom: 1vw; */
+}
+
+.project-info-description {
+  /* margin: 1% 10%; */
+  font-size: 1vw;
+  margin: 0 1vw 0 0;
+  color: white;
+}
+
+.project-info-techs {
+  margin: 0 1vw 0 0;
+  font-size: 1vw;
+  font-style: italic;
+  color: lightgoldenrodyellow;
+}
+
+.project-resource {
+  margin: 0;
+}
+
+.project-resource a {
+  text-decoration: none;
+  font-size: 1vw;
 }
 
 .project-relatedlink {
@@ -160,14 +208,12 @@
   height: 3vw;
   width: 3vw;
 }
-
+/* 
 .wider .visit-link,
 .wider .github {
-  /* height: 33%; */
-  /* height: 3vw; */
   height: 5vw;
   width: 5vw;
-}
+} */
 
 .github {
   /* width: 3vw; */
@@ -247,37 +293,39 @@
 }
 
 @media only screen and (max-width: 1360px) {
-  .project-title {
+  /* .project-title {
     font-size: 1rem;
-  }
+  } */
 
   .project-info-name {
-    font-size: 1.5rem;
-  }
-
-  .project-info-description {
     font-size: 0.9rem;
   }
 
+  .project-info-description,
   .project-info-techs {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
+
+  /* .project-info-techs {
+    font-size: 0.9rem;
+  } */
 }
 
 @media only screen and (max-width: 1280px) {
   .project-info-name {
-    font-size: 1.4rem;
-  }
-
-  .project-info-description {
     font-size: 0.85rem;
   }
 
+  .project-info-description,
   .project-info-techs {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
 
-  .visit-link {
+  /* .project-info-techs {
+    font-size: 0.95rem;
+  } */
+
+  /* .visit-link {
     font-size: 1rem;
   }
 
@@ -291,61 +339,59 @@
   .wider .github {
     height: 5vw;
     width: 5vw;
-  }
+  } */
 }
 
 /* Extra Large devices */
 @media only screen and (max-width: 1200px) {
-  .project-title {
+  /* .project-title {
     font-size: 0.95rem;
-  }
+  } */
 
   .project-info-name {
-    font-size: 1.3rem;
-  }
-
-  .project-info-description {
     font-size: 0.8rem;
   }
 
+  .project-info-description,
   .project-info-techs {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
-  .visit-link {
+
+  /* .project-info-techs {
     font-size: 0.9rem;
-  }
+  } */
+  /* .visit-link {
+    font-size: 0.9rem;
+  } */
 }
 
 @media only screen and (max-width: 1024px) {
-  .project-div {
+  /* .project-div {
     height: 28vw;
     margin: 2% 2%;
-  }
-  .normal {
+  } */
+  /* .normal {
     width: 28vw;
   }
 
   .wider {
     width: 60vw;
-  }
+  } */
 
   .project-info-name {
-    font-size: 1.4rem;
+    font-size: 0.75rem;
   }
 
-  .project-info-description {
-    font-size: 0.9rem;
-  }
-
+  .project-info-description,
   .project-info-techs {
+    font-size: 0.65rem;
+  }
+
+  /* .project-info-techs {
     font-size: 1rem;
-  }
+  } */
 
-  .visit-link {
-    /* font-size: 0.9rem; */
-  }
-
-  .normal .visit-link,
+  /* .normal .visit-link,
   .normal .github {
     height: 4vw;
     width: 4vw;
@@ -355,68 +401,70 @@
   .wider .github {
     height: 6vw;
     width: 6vw;
-  }
+  } */
 }
 
 /* Large devices */
 @media only screen and (max-width: 992px) {
   .project-info-name {
-    font-size: 1.35rem;
+    font-size: 0.7rem;
   }
 
-  .project-info-description {
-    font-size: 0.85rem;
-  }
-
+  .project-info-description,
   .project-info-techs {
-    font-size: 0.95rem;
+    font-size: 0.6rem;
   }
+
+  /* .project-info-techs {
+    font-size: 0.95rem;
+  } */
 }
 
 @media only screen and (max-width: 854px) {
-  .project-title {
+  /* .project-title {
     font-size: 0.9rem;
-  }
+  } */
 
   .project-info-name {
-    font-size: 1.3rem;
+    font-size: 1.5vw;
   }
 
-  .project-info-description {
-    font-size: 0.8rem;
-  }
-
+  .project-info-description,
   .project-info-techs {
-    font-size: 0.9rem;
+    font-size: 1vw;
   }
 
-  .visit-link {
-    /* width: 5vw; */
+  /* .project-info-techs {
     font-size: 0.9rem;
-  }
+  } */
+
+  /* .visit-link {
+    font-size: 0.9rem;
+  } */
 }
 
 /* Medium devices */
 @media only screen and (max-width: 768px) {
-  .project-title {
+  /* .project-title {
     font-size: 0.85rem;
+  } */
+
+  /* .project-info-name {
+    font-size: 0.2rem;
   }
 
-  .project-info-name {
-    font-size: 1.2rem;
-  }
-
-  .project-info-description {
-    font-size: 0.7rem;
-  }
-
+  .project-info-description,
   .project-info-techs {
-    font-size: 0.8rem;
-  }
+    font-size: 0.3rem;
+  } */
 
-  .visit-link {
+  /* .project-info-techs {
     font-size: 0.8rem;
-  }
+  } */
+
+  /* .visit-link {
+    font-size: 0.8rem;
+  } */
 }
 
 @media only screen and (max-width: 640px) {
@@ -427,27 +475,28 @@
     width: 40vw;
   }
 
-  .wider {
-    width: 70vw;
-  }
-
-  .project-title {
+  /* .project-title {
     font-size: 0.9rem;
-  }
+  } */
 
   .project-info-name {
-    font-size: 1.3rem;
+    font-size: 0.75rem;
   }
 
-  .project-info-description {
-    font-size: 0.8rem;
-  }
-
+  .project-info-description,
   .project-info-techs {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
 
-  .normal .visit-link,
+  .project-resource a {
+    font-size: 1.3vw;
+  }
+
+  /* .project-info-techs {
+    font-size: 0.9rem;
+  } */
+
+  /* .normal .visit-link,
   .normal .github {
     height: 6vw;
     width: 6vw;
@@ -457,47 +506,49 @@
   .wider .github {
     height: 8vw;
     width: 8vw;
-  }
+  } */
 }
 
 /* Small devices */
 @media only screen and (max-width: 576px) {
-  .project-title {
+  /* .project-title {
     font-size: 0.8rem;
-  }
+  } */
   .project-info-name {
-    font-size: 1.2rem;
+    font-size: 2vw;
   }
 
-  .project-info-description {
-    font-size: 0.7rem;
-  }
-
+  .project-info-description,
   .project-info-techs {
-    font-size: 0.8rem;
+    font-size: 1.5vw;
   }
+
+  /* .project-info-techs {
+    font-size: 0.8rem;
+  } */
 }
 
 @media only screen and (max-width: 480px) {
-  .project-title {
+  /* .project-title {
     font-size: 2.6vw;
-  }
+  } */
 
   .project-info-name {
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 
-  .project-info-description {
-    font-size: 2.4vw;
-  }
-
+  .project-info-description,
   .project-info-techs {
-    font-size: 2.6vw;
+    font-size: 1.5vw;
   }
 
-  .visit-link {
+  /* .project-info-techs {
+    font-size: 2.6vw;
+  } */
+
+  /* .visit-link {
     font-size: 2.5vw;
-  }
+  } */
 }
 
 /* Mobile */
@@ -509,27 +560,32 @@
     width: 60vw;
   }
 
-  .wider {
+  /* .wider {
     width: 85vw;
   }
 
   .project-title {
     font-size: 3.2vw;
-  }
+  } */
 
   .project-info-name {
-    font-size: 5vw;
-  }
-
-  .project-info-description {
     font-size: 3vw;
   }
 
+  .project-info-description,
   .project-info-techs {
-    font-size: 3.5vw;
+    font-size: 2vw;
   }
 
-  .normal .visit-link,
+  .project-resource a {
+    font-size: 2vw;
+  }
+
+  /* .project-info-techs {
+    font-size: 3.5vw;
+  } */
+
+  /* .normal .visit-link,
   .normal .github {
     height: 8vw;
     width: 8vw;
@@ -543,8 +599,16 @@
 
   .visit-link {
     font-size: 3.1vw;
-  }
+  } */
 }
 
 @media only screen and (max-width: 320px) {
+  .project-info-name {
+    font-size: 2.5vw;
+  }
+
+  .project-info-description,
+  .project-info-techs {
+    font-size: 1.8vw;
+  }
 }

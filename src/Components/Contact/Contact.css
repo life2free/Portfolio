@@ -16,13 +16,11 @@
   color: #2980b9;
 }
 
-.contact-info {
-}
-
 .contact-info-detail {
   margin: 0;
   font-size: 1.5vw;
-  color: #3f3c3c;
+  /* color: #3f3c3c; */
+  color: lightgray;
 }
 
 .contact-link {
@@ -33,17 +31,18 @@
   align-items: center;
 }
 .contact-link-img {
-  height: 6vw;
-  width: 11vw;
+  height: 4vw;
+  width: 4vw;
+  margin: 0 2vw;
 }
 .contact-link-img-linkedin img {
-  height: 100%;
-  width: 100%;
+  height: 90%;
+  width: 90%;
 }
 
 .contact-link-img-github img {
   height: 100%;
-  width: 60%;
+  width: 100%;
 }
 
 .contact-link-img-email img {
@@ -152,7 +151,7 @@
 
   .contact-link-img {
     height: 8vw;
-    width: 14vw;
+    width: 8vw;
   }
 }
 
@@ -167,7 +166,7 @@
 
   .contact-link-img {
     height: 9vw;
-    width: 15vw;
+    width: 9vw;
   }
 }
 
@@ -183,7 +182,7 @@
 
   .contact-link-img {
     height: 10vw;
-    width: 17vw;
+    width: 10vw;
   }
 }
 
@@ -197,6 +196,6 @@
 
   .contact-link-img {
     height: 11vw;
-    width: 19vw;
+    width: 11vw;
   }
 }
