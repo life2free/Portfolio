@@ -11,7 +11,15 @@ const skillList = [
   {
     imgUrl: FrontEnd,
     category: "FRONT END",
-    acquiredSkills: ["React", "Angular", "Html", "Javascript", "jQuery", "CSS"],
+    acquiredSkills: [
+      "React",
+      "Angular",
+      "Html",
+      "JavaScript",
+      "TypeScript",
+      "jQuery",
+      "CSS",
+    ],
   },
   {
     imgUrl: BackEnd,
@@ -49,7 +57,7 @@ const skillList = [
       "Ant",
       "Eclipse",
       "IntelliJ IDEA",
-      "Visual Studio",
+      "JIRA",
     ],
   },
 ];
