@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.26422ab8.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bb5edff8.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bb5edff8.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e029fae7.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e029fae7.js.map",
+    "static/js/2.6d182d20.chunk.js": "/Portfolio/static/js/2.6d182d20.chunk.js",
+    "static/js/2.6d182d20.chunk.js.map": "/Portfolio/static/js/2.6d182d20.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.33f625a1b31d3d2acbefea7584b98bb1.js": "/Portfolio/precache-manifest.33f625a1b31d3d2acbefea7584b98bb1.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.26422ab8.chunk.css.map": "/Portfolio/static/css/main.26422ab8.chunk.css.map",
+    "static/js/2.6d182d20.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6d182d20.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/Portfolio/static/media/avatar.28d9d7ed.png",
+    "static/media/backend.jpeg": "/Portfolio/static/media/backend.ffa697d4.jpeg",
+    "static/media/componentlibrary.png": "/Portfolio/static/media/componentlibrary.590f2dd3.png",
+    "static/media/contactbook.png": "/Portfolio/static/media/contactbook.29ee4b39.png",
+    "static/media/cotripper.png": "/Portfolio/static/media/cotripper.2f86c151.png",
+    "static/media/database.png": "/Portfolio/static/media/database.707d61a2.png",
+    "static/media/email.png": "/Portfolio/static/media/email.13d8fbc3.png",
+    "static/media/endever.png": "/Portfolio/static/media/endever.70305f61.png",
+    "static/media/framework.png": "/Portfolio/static/media/framework.e9afb662.png",
+    "static/media/frontend.png": "/Portfolio/static/media/frontend.1d267581.png",
+    "static/media/gameofwar.png": "/Portfolio/static/media/gameofwar.7ae7489b.png",
+    "static/media/github.png": "/Portfolio/static/media/github.dc967186.png",
+    "static/media/hanoi.png": "/Portfolio/static/media/hanoi.f2497182.png",
+    "static/media/nationalparks.png": "/Portfolio/static/media/nationalparks.9ec12de1.png",
+    "static/media/newsassistant.png": "/Portfolio/static/media/newsassistant.ec36f75e.png",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.a3eaf132.pdf",
+    "static/media/tools.png": "/Portfolio/static/media/tools.21b12bf9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e029fae7.js",
+    "static/js/2.6d182d20.chunk.js",
+    "static/css/main.26422ab8.chunk.css",
+    "static/js/main.bb5edff8.chunk.js"
+  ]
+}
