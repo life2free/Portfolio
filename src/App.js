@@ -115,7 +115,7 @@ class App extends Component {
             /> */}
 
             <Route
-              path="/"
+              path=""
               exact
               element={<Home setHighLight={this.setHighLight} index="0" />}
             />
