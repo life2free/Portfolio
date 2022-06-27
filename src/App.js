@@ -70,50 +70,6 @@ class App extends Component {
         </header>
         <main className="App-main">
           <Routes>
-            {/* <Route
-              path="/"
-              exact
-              render={() => {
-                return <Home setHighLight={this.setHighLight} index="0" />;
-              }}
-            />
-            <Route
-              path="/about"
-              render={() => {
-                return <About setHighLight={this.setHighLight} index="1" />;
-              }}
-            />
-            <Route
-              path="/skills"
-              render={() => {
-                return <Skills setHighLight={this.setHighLight} index="2" />;
-              }}
-            />
-            <Route
-              path="/projects"
-              render={() => {
-                return <Projects setHighLight={this.setHighLight} index="3" />;
-              }}
-            />
-            <Route
-              path="/resume"
-              render={() => {
-                return <Resume setHighLight={this.setHighLight} index="4" />;
-              }}
-            />
-            <Route
-              path="/contact"
-              render={() => {
-                return <Contact setHighLight={this.setHighLight} index="5" />;
-              }}
-            />
-            <Route
-              path="/test"
-              render={() => {
-                return <Test setHighLight={this.setHighLight} index="6" />;
-              }}
-            /> */}
-
             <Route
               path=""
               exact
