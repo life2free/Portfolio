@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b76aca85.css",
-    "main.js": "/Portfolio/static/js/main.bcb6bfd1.js",
+    "main.js": "/Portfolio/static/js/main.7bb55f91.js",
     "static/media/nationalparks.png": "/Portfolio/static/media/nationalparks.5200bcd1129e4224c349.png",
     "static/media/newsassistant.png": "/Portfolio/static/media/newsassistant.d2c55f8b1673a1da2dc8.png",
     "static/media/endever.png": "/Portfolio/static/media/endever.9c8383522a5356ba83c6.png",
@@ -21,10 +21,10 @@
     "static/media/email.png": "/Portfolio/static/media/email.d71b1272a8378ffcf70a.png",
     "index.html": "/Portfolio/index.html",
     "main.b76aca85.css.map": "/Portfolio/static/css/main.b76aca85.css.map",
-    "main.bcb6bfd1.js.map": "/Portfolio/static/js/main.bcb6bfd1.js.map"
+    "main.7bb55f91.js.map": "/Portfolio/static/js/main.7bb55f91.js.map"
   },
   "entrypoints": [
     "static/css/main.b76aca85.css",
-    "static/js/main.bcb6bfd1.js"
+    "static/js/main.7bb55f91.js"
   ]
 }
