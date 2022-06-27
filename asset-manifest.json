@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b76aca85.css",
-    "main.js": "/Portfolio/static/js/main.dbd950f9.js",
+    "main.css": "/Portfolio/static/css/main.859c3c3f.css",
+    "main.js": "/Portfolio/static/js/main.0a8c6280.js",
     "static/media/nationalparks.png": "/Portfolio/static/media/nationalparks.5200bcd1129e4224c349.png",
     "static/media/newsassistant.png": "/Portfolio/static/media/newsassistant.d2c55f8b1673a1da2dc8.png",
     "static/media/endever.png": "/Portfolio/static/media/endever.9c8383522a5356ba83c6.png",
@@ -13,18 +13,18 @@
     "static/media/gameofwar.png": "/Portfolio/static/media/gameofwar.07dac365ef283e91b2fe.png",
     "static/media/contactbook.png": "/Portfolio/static/media/contactbook.a9b50fcf114f25bc9306.png",
     "static/media/framework.png": "/Portfolio/static/media/framework.11d6fd3a3ee8da5fcb50.png",
+    "static/media/email.png": "/Portfolio/static/media/email.a7b0720334f4c48e5dc7.png",
     "static/media/github.png": "/Portfolio/static/media/github.9af951919d0847cca685.png",
     "static/media/database.png": "/Portfolio/static/media/database.723576df343cbe07c0e9.png",
     "static/media/tools.png": "/Portfolio/static/media/tools.226dbf2c96071e89cd02.png",
     "static/media/backend.jpeg": "/Portfolio/static/media/backend.75239e588f65c271f03d.jpeg",
     "static/media/frontend.png": "/Portfolio/static/media/frontend.d62dac8b119fbe6b65bd.png",
-    "static/media/email.png": "/Portfolio/static/media/email.d71b1272a8378ffcf70a.png",
     "index.html": "/Portfolio/index.html",
-    "main.b76aca85.css.map": "/Portfolio/static/css/main.b76aca85.css.map",
-    "main.dbd950f9.js.map": "/Portfolio/static/js/main.dbd950f9.js.map"
+    "main.859c3c3f.css.map": "/Portfolio/static/css/main.859c3c3f.css.map",
+    "main.0a8c6280.js.map": "/Portfolio/static/js/main.0a8c6280.js.map"
   },
   "entrypoints": [
-    "static/css/main.b76aca85.css",
-    "static/js/main.dbd950f9.js"
+    "static/css/main.859c3c3f.css",
+    "static/js/main.0a8c6280.js"
   ]
 }
