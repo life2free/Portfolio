@@ -20,11 +20,12 @@ class About extends Component {
               Full-stack software engineer
             </p>
             <p className="about-content-detail-info">
-              An experienced developer with over 7 years of software development
-              and testing experience, with strong database and troubleshooting
-              skills. A task-oriented programmer, passionate about uncovering,
-              analyzing, finding solutions for difficult problems and learning
-              new technologies.
+              An experienced developer with with a proven ability to leverage
+              full-stack knowledge. I have been involved in analyzing
+              requirements, designing, developing, testing and delivering
+              complex applications using a variety of technologies. As a
+              task-oriented programmer, I am passionate about uncovering,
+              analyzing, and finding solutions for business.
             </p>
             {/* <ul>
               <li>Majored in Computer Science and Technology</li>
