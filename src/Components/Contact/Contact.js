@@ -23,7 +23,6 @@ class Contact extends Component {
       <div className="contact-div">
         <div className="contact-info-div">
           <div className="contact-title-div">
-            test
             <p className="contact-title">Keep in touch!</p>
           </div>
           <div className="contact-info">
@@ -36,9 +35,9 @@ class Contact extends Component {
             </p>
           </div>
         </div>
-        <div className="contact-emailsend">
+        {/* <div className="contact-emailsend">
           <EmailSend />
-        </div>
+        </div> */}
         <div className="contact-link">
           <div className="contact-link-img contact-link-img-linkedin">
             <img
@@ -56,11 +55,11 @@ class Contact extends Component {
               url={Config.GitHub}
             ></img>
           </div>
-          {/* <div className="contact-link-img  contact-link-img-email">
+          <div className="contact-link-img  contact-link-img-email">
             <a href="mailto:thunderous_0518@hotmail.com">
               <img src={EmailImg} alt="Email"></img>
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     );

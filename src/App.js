@@ -120,6 +120,11 @@ class App extends Component {
               element={<Home setHighLight={this.setHighLight} index="0" />}
             />
             <Route
+              path="/"
+              exact
+              element={<Home setHighLight={this.setHighLight} index="0" />}
+            />
+            <Route
               path="/Portfolio"
               exact
               element={<Home setHighLight={this.setHighLight} index="0" />}
