@@ -12,7 +12,7 @@ class Home extends Component {
       <div className="home-div">
         <div className="myinfo-div myinfo-bounce">
           <p className="myinfo-intro">
-            Hello, My name is <span className="myname">Jinyu Rao</span>
+            Hello, My name is <span className="myname">Shimin Rao</span>
           </p>
           <p className="myinfo-title">
             A <span className="job-type">FULL STACK</span> Developer
