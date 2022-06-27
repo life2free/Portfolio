@@ -23,6 +23,7 @@ class Contact extends Component {
       <div className="contact-div">
         <div className="contact-info-div">
           <div className="contact-title-div">
+            test
             <p className="contact-title">Keep in touch!</p>
           </div>
           <div className="contact-info">

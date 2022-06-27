@@ -51,19 +51,19 @@ class App extends Component {
               <Link to="/">Home</Link>
             </div>
             <div className="Nav-item">
-              <Link to="/about">About</Link>
+              <Link to="/Portfolio/about">About</Link>
             </div>
             <div className="Nav-item">
-              <Link to="/skills">Skills</Link>
+              <Link to="/Portfolio/skills">Skills</Link>
             </div>
             <div className="Nav-item">
-              <Link to="/projects">Projects</Link>
+              <Link to="/Portfolio/projects">Projects</Link>
             </div>
             <div className="Nav-item">
-              <Link to="/resume">Resume</Link>
+              <Link to="/Portfolio/resume">Resume</Link>
             </div>
             <div className="Nav-item">
-              <Link to="/contact">Contact</Link>
+              <Link to="/Portfolio/contact">Contact</Link>
             </div>
             {/* <div className="Nav-whitespace"></div> */}
           </div>
@@ -120,32 +120,33 @@ class App extends Component {
               element={<Home setHighLight={this.setHighLight} index="0" />}
             />
             <Route
-              path="/about"
+              path="/Portfolio"
+              exact
+              element={<Home setHighLight={this.setHighLight} index="0" />}
+            />
+            <Route
+              path="/Portfolio/about"
               element={<About setHighLight={this.setHighLight} index="1" />}
             />
             <Route
-              path="/skills"
+              path="/Portfolio/skills"
               element={<Skills setHighLight={this.setHighLight} index="2" />}
             />
             <Route
-              path="/projects"
+              path="/Portfolio/projects"
               element={<Projects setHighLight={this.setHighLight} index="3" />}
             />
             <Route
-              path="/resume"
+              path="/Portfolio/resume"
               element={<Resume setHighLight={this.setHighLight} index="4" />}
             />
             <Route
-              path="/contact"
-              render={() => {
-                return <Contact setHighLight={this.setHighLight} index="5" />;
-              }}
+              path="/Portfolio/contact"
+              element={<Contact setHighLight={this.setHighLight} index="5" />}
             />
             <Route
-              path="/test"
-              render={() => {
-                return <Test setHighLight={this.setHighLight} index="6" />;
-              }}
+              path="/Portfolio/test"
+              element={<Test setHighLight={this.setHighLight} index="6" />}
             />
           </Routes>
         </main>
