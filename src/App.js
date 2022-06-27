@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
@@ -69,49 +69,85 @@ class App extends Component {
           </div>
         </header>
         <main className="App-main">
-          <Route
-            path="/"
-            exact
-            render={() => {
-              return <Home setHighLight={this.setHighLight} index="0" />;
-            }}
-          />
-          <Route
-            path="/about"
-            render={() => {
-              return <About setHighLight={this.setHighLight} index="1" />;
-            }}
-          />
-          <Route
-            path="/skills"
-            render={() => {
-              return <Skills setHighLight={this.setHighLight} index="2" />;
-            }}
-          />
-          <Route
-            path="/projects"
-            render={() => {
-              return <Projects setHighLight={this.setHighLight} index="3" />;
-            }}
-          />
-          <Route
-            path="/resume"
-            render={() => {
-              return <Resume setHighLight={this.setHighLight} index="4" />;
-            }}
-          />
-          <Route
-            path="/contact"
-            render={() => {
-              return <Contact setHighLight={this.setHighLight} index="5" />;
-            }}
-          />
-          <Route
-            path="/test"
-            render={() => {
-              return <Test setHighLight={this.setHighLight} index="6" />;
-            }}
-          />
+          <Routes>
+            {/* <Route
+              path="/"
+              exact
+              render={() => {
+                return <Home setHighLight={this.setHighLight} index="0" />;
+              }}
+            />
+            <Route
+              path="/about"
+              render={() => {
+                return <About setHighLight={this.setHighLight} index="1" />;
+              }}
+            />
+            <Route
+              path="/skills"
+              render={() => {
+                return <Skills setHighLight={this.setHighLight} index="2" />;
+              }}
+            />
+            <Route
+              path="/projects"
+              render={() => {
+                return <Projects setHighLight={this.setHighLight} index="3" />;
+              }}
+            />
+            <Route
+              path="/resume"
+              render={() => {
+                return <Resume setHighLight={this.setHighLight} index="4" />;
+              }}
+            />
+            <Route
+              path="/contact"
+              render={() => {
+                return <Contact setHighLight={this.setHighLight} index="5" />;
+              }}
+            />
+            <Route
+              path="/test"
+              render={() => {
+                return <Test setHighLight={this.setHighLight} index="6" />;
+              }}
+            /> */}
+
+            <Route
+              path="/"
+              exact
+              element={<Home setHighLight={this.setHighLight} index="0" />}
+            />
+            <Route
+              path="/about"
+              element={<About setHighLight={this.setHighLight} index="1" />}
+            />
+            <Route
+              path="/skills"
+              element={<Skills setHighLight={this.setHighLight} index="2" />}
+            />
+            <Route
+              path="/projects"
+              element={<Projects setHighLight={this.setHighLight} index="3" />}
+            />
+            <Route
+              path="/resume"
+              element={<Resume setHighLight={this.setHighLight} index="4" />}
+            />
+            <Route
+              path="/contact"
+              render={() => {
+                return <Contact setHighLight={this.setHighLight} index="5" />;
+              }}
+            />
+            <Route
+              path="/test"
+              render={() => {
+                return <Test setHighLight={this.setHighLight} index="6" />;
+              }}
+            />
+          </Routes>
         </main>
         <footer></footer>
       </div>
