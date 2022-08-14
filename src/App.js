@@ -59,9 +59,9 @@ class App extends Component {
             <div className="Nav-item">
               <Link to="/Portfolio/projects">Projects</Link>
             </div>
-            <div className="Nav-item">
+            {/* <div className="Nav-item">
               <Link to="/Portfolio/resume">Resume</Link>
-            </div>
+            </div> */}
             <div className="Nav-item">
               <Link to="/Portfolio/contact">Contact</Link>
             </div>
